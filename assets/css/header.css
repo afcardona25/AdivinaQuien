@@ -1,0 +1,35 @@
+/***************Logo*******************/
+.Container-Logo img {
+    width: 120px;
+    margin-left: 2rem;
+    transition: all 0.3s linear;
+    color: white;
+}
+
+
+
+.Container-Logo img:hover {
+    transform: scale(0.9);
+}
+
+
+/***********Barra Navegación**************/
+
+header {
+    background-color: #8338EC;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(83, 42, 87, 0.15)
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: rgb(185, 183, 183);
+}

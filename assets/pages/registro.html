@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/registro.css">
+    <title>Registro</title>
+</head>
+
+<body>
+
+
+    <main class="cont_principal">
+        <div class="container">
+            <h1 class="text-center my-5 ">Registrarse</h1>
+            <div class="row d-flex justify-content-center ">
+                <div class="col-4">
+                    <form id="formularioRegistro">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" class="form-control " id="name" maxlength="20" placeholder="Nombre">
+                            <small id="validName"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Apellido</label>
+                            <input type="text" class="form-control " id="lastName" maxlength="20"
+                                placeholder="Apellido">
+                            <small id="validLastName"></small>
+                        </div>
+                        <div class="d-flex justify-content-around flex-wrap">
+                            <button type="submit" class="boton" id="btn_registro">Registrate</button>
+                            <button type="submit" class="boton"><a class="nav-link"
+                                    href="../../index.html">Regresar</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>   
+    <script src="../js/registroLocalStorage.js"></script>
+</body>
+
+</html>

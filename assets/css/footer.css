@@ -1,0 +1,14 @@
+/***********Footer**************/
+.myfooter{
+    text-align: center;
+    background-color:#8338EC;  
+    padding: 1vw; 
+}
+
+.footer_text{
+    font-size: 0.8rem;
+    font-style: italic;
+    color:white;  
+
+}
+

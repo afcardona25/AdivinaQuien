@@ -1,0 +1,26 @@
+.column1{
+   background-color:#FFBE0B ; 
+   width: 25%;
+}
+.column2{
+    background-color:#FB5607;
+    width: 25%;
+}
+.column3{
+    background-color:#FF006E;
+    width: 25%;
+}
+.column4{
+    background-color:#3A86FF;
+    width: 25%;
+}
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

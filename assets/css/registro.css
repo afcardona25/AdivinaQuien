@@ -1,0 +1,30 @@
+.cont_principal{
+    display: flex;
+    align-items: center;
+    height: 600px;
+}
+.cont_principal h1{
+    color: #8338EC;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 15px auto;
+    background-color: #8338EC;
+    color: #fff;
+    cursor: pointer;
+    
+}
+    .boton > a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .boton:hover{
+        background-color: #FF006E ;
+    }
